@@ -4,8 +4,8 @@
 // @match       *://*.twitter.com/*
 // @match       *://*.x.com/*
 // @grant       none
-// @version     1.0
-// @author      busybox11
+// @version     0.9
+// @author      @chaoticvibing (busybox11 on GitHub)
 // @description 6/14/2024
 // @updateURL
 // @downloadURL
