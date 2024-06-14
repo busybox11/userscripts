@@ -4,11 +4,11 @@
 // @match       *://*.twitter.com/*
 // @match       *://*.x.com/*
 // @grant       none
-// @version     0.9
+// @version     1.0
 // @author      @chaoticvibing (busybox11 on GitHub)
 // @description 6/14/2024
-// @updateURL
-// @downloadURL
+// @updateURL   https://gist.githubusercontent.com/busybox11/de6ffc8f56a4d3281b7904642d26d6aa/raw
+// @downloadURL https://gist.githubusercontent.com/busybox11/de6ffc8f56a4d3281b7904642d26d6aa/raw
 // ==/UserScript==
 
 const YEAH_B64 =
