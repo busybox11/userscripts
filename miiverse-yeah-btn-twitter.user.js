@@ -140,6 +140,8 @@ const handleMutation = (mutationsList, observer) => {
               yeahBtn.innerHTML = `<img src="${YEAH_B64}" alt="Yeah!">`;
               yeahBtn.addEventListener("click", () => {
                 if (isSmall) {
+                  // TODO: Automatically like as well if not already liked
+
                   // Click on first nested button item of the tablist
                   // to bring up the reply box
                   el.firstElementChild.querySelector("button").click();
