@@ -4,7 +4,7 @@
 // @match       *://*.twitter.com/*
 // @match       *://*.x.com/*
 // @grant       none
-// @version     1.0.2
+// @version     1.1.0
 // @author      @chaoticvibing (busybox11 on GitHub)
 // @description 6/14/2024
 // @updateURL   https://gist.githubusercontent.com/busybox11/de6ffc8f56a4d3281b7904642d26d6aa/raw/miiverse-yeah-btn-twitter.user.js
