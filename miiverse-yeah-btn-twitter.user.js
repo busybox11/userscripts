@@ -79,7 +79,13 @@ function handleTweetFillInput(targetEl) {
   }, 2000);
 }
 
+let isTweetCanceled = false;
+
 function handleTweetSendBtn() {
+  if (isTweetCanceled) {
+    return;
+  }
+
   let sendTweetBtn = document.querySelector("[data-testid='tweetButton']");
   if (!sendTweetBtn) {
     sendTweetBtn = document.querySelector("[data-testid='tweetButtonInline']");
@@ -180,6 +186,13 @@ observer.observe(document, {
   childList: true,
   subtree: true,
   attributeOldValue: true,
+});
+
+// Listen for ESC key press
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    isTweetCanceled = true;
+  }
 });
 
 // Inject CSS
